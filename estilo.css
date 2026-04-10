@@ -1,6 +1,10 @@
 body{
-    background-image:url(fundo.png);
     text-align: center;
+    
+
+}
+.pagina-com-fundo{
+    background-image:url(fundo.png);
     height: 950px;
     width: 98%;
     background-repeat: no-repeat;
@@ -11,10 +15,13 @@ body{
 .link{
     background-color: rgb(17, 99, 21);
     font-size: 40px;
+    bac
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(252, 252, 252);
-    text-decoration: none; 
-    border-radius: 35%;
+    text-decoration: none; /* tira o sublinhado do link*/
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
    
 }
 
@@ -24,5 +31,22 @@ body{
     font-family:verdana, tahoma, sans-serif;
     color:floralwhite;
     font-weight: bold;
+    
+    
+}
 
+.quem-somos{
+    background-image: url(quem_somos.png);
+    height: 700px;
+    width: 98%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(110, 78, 17);
+    font-size:20px;
+    
 }
