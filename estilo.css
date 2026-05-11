@@ -1,7 +1,5 @@
 body{
-    text-align: center;
-    
-
+    text-align: center; 
 }
 .pagina-com-fundo{
     background-image:url(fundo.png);
@@ -15,7 +13,6 @@ body{
 .link{
     background-color: rgb(17, 99, 21);
     font-size: 40px;
-    bac
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(252, 252, 252);
     text-decoration: none; /* tira o sublinhado do link*/
@@ -35,10 +32,10 @@ body{
     
 }
 
-.quem-somos{
-    background-image: url(quem_somos.png);
-    height: 700px;
-    width: 98%;
+.produtos{
+    background-image:url(quem_somos.png);
+    min-height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,3 +47,14 @@ body{
     font-size:20px;
     
 }
+
+.quem-somos{
+background-image:url(quem_somos.png);
+    min-height: 95vh;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
