@@ -1,10 +1,13 @@
 body{
-    text-align: center; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 .pagina-com-fundo{
     background-image:url(fundo.png);
-    height: 950px;
-    width: 98%;
+    height: 850px;
+    width: 95%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,7 +37,7 @@ body{
 
 .produtos{
     background-image:url(quem_somos.png);
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,11 +53,12 @@ body{
 
 .quem-somos{
 background-image:url(quem_somos.png);
-    min-height: 95vh;
-    width: 99%;
+    height: 500px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 }
+
 
